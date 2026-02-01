@@ -39,4 +39,63 @@ Mistakes, dead ends, and fixes are part of the process and are intentionally pre
 
 ## Repository Structure
 
+DevOps/
+├── README.md ← High-level overview & weekly progress
+├── CHALLENGES.md ← Daily challenges, root causes, fixes
+│
+├── week-01-linux-foundations/
+│ ├── README.md ← Week summary & progress only
+│ ├── day-01/
+│ ├── day-02/
+│ ├── day-03/
+│ └── ...
+│
+├── week-02-...
+├── week-03-...
+
+---
+
+## Progress Tracking (High-Level)
+
+This section is updated as weeks are completed.
+
+| Week | Focus Area | Status | Notes |
+|-----|-----------|--------|------|
+| Week 1 | Linux foundations, users, permissions, Git & WSL | 🟡 In Progress | Hands-on completed up to Day 3 |
+| Week 2 | Linux networking & processes | ⏳ Planned | |
+| Week 3 | Containers & Docker | ⏳ Planned | |
+| Week 4 | CI/CD basics | ⏳ Planned | |
+| Week 5 | Cloud fundamentals (AWS) | ⏳ Planned | |
+| Week 6–12 | Advanced DevOps topics | ⏳ Planned | |
+
+---
+
+## How Progress Is Documented
+
+This repository uses **two separate documents** intentionally:
+
+### 1. Progress & Summary
+- Tracked in this `README.md`
+- Updated at **week-level**, not daily
+- Shows where I am in the journey
+
+### 2. Challenges & Learnings
+- Tracked in `CHALLENGES.md`
+- Updated **every day**
+- Logs real issues, root causes, fixes, and learnings
+
+This separation keeps progress clear and challenges honest.
+
+---
+
+## Update Policy (Important)
+
+At the end of:
+- **Each day** → Update `CHALLENGES.md`
+- **Each week** → Update progress status in this README
+
+This README will evolve, but it will remain:
+- High-level
+- Clean
+- Easy to scan
 
