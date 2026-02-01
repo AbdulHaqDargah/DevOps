@@ -40,20 +40,30 @@ Mistakes, dead ends, and fixes are part of the process and are intentionally pre
 ## Repository Structure
 
 DevOps/
-├── README.md ← High-level overview & weekly progress
-├── CHALLENGES.md ← Daily challenges, root causes, fixes
+├── README.md
+├── CHALLENGES.md
 │
 ├── week-01-linux-foundations/
-│ ├── README.md ← Week summary & progress only
-│ ├── day-01/
-│ ├── day-02/
-│ ├── day-03/
-│ └── ...
+│   ├── README.md
+│   ├── day-01/
+│   │   └── system_info.sh
+│   │
+│   ├── day-02/
+│   │   ├── secrets.txt
+│   │   └── ownership_test.txt
+│   │
+│   ├── day-03/
+│   │   ├── network_check.sh
+│   │   └── NOTES.md
+│   │
+│   ├── day-04/
+│   ├── day-05/
+│   ├── day-06/
+│   └── day-07/
 │
-├── week-02-...
-├── week-03-...
-
----
+├── week-02-<future>/
+├── week-03-<future>/
+└── week-04-<future>/
 
 ## Progress Tracking (High-Level)
 
