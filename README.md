@@ -39,6 +39,7 @@ Mistakes, dead ends, and fixes are part of the process and are intentionally pre
 
 ## Repository Structure
 
+```text
 DevOps/
 ├── README.md
 ├── CHALLENGES.md
@@ -64,6 +65,7 @@ DevOps/
 ├── week-02-<future>/
 ├── week-03-<future>/
 └── week-04-<future>/
+```
 
 ## Progress Tracking (High-Level)
 
