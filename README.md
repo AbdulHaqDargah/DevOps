@@ -47,17 +47,22 @@ DevOps/
 ├── week-01-linux-foundations/
 │   ├── README.md
 │   ├── day-01/
-│   │   └── system_info.sh
+│   │   ├── system_info.sh
+│   │   └── NOTES.md
 │   │
 │   ├── day-02/
 │   │   ├── secrets.txt
-│   │   └── ownership_test.txt
+│   │   ├── ownership_test.txt
+│   │   └── NOTES.md
 │   │
 │   ├── day-03/
 │   │   ├── network_check.sh
 │   │   └── NOTES.md
 │   │
 │   ├── day-04/
+│   │   ├── process_inspector.sh
+│   │   └── NOTES.md
+│   │
 │   ├── day-05/
 │   ├── day-06/
 │   └── day-07/
@@ -79,6 +84,27 @@ This section is updated as weeks are completed.
 | Week 4 | CI/CD basics | ⏳ Planned | |
 | Week 5 | Cloud fundamentals (AWS) | ⏳ Planned | |
 | Week 6–12 | Advanced DevOps topics | ⏳ Planned | |
+
+---
+
+## Week 1 – Linux Foundations & Security (Completed so far)
+
+| Day | Topic | Status | Evidence |
+|----|----|----|----|
+| Day 1 | Linux basics & Bash | ✅ Completed | day-01/system_info.sh + NOTES.md |
+| Day 2 | Users, groups, permissions | ✅ Completed | day-02/*.txt + NOTES.md |
+| Day 3 | Linux networking | ✅ Completed | day-03/network_check.sh + NOTES.md |
+| Day 4 | Linux processes | ✅ Completed | day-04/process_inspector.sh + NOTES.md |
+| Day 5 | Logs & troubleshooting | ⏳ In progress | day-05/ |
+| Day 6 | Hardening basics | ⏳ Planned | day-06/ |
+| Day 7 | Mini project | ⏳ Planned | day-07/ |
+
+### How this repo is organized
+- Each day lives in its own folder.  
+- Every day contains:
+  - At least one working script  
+  - A `NOTES.md` capturing learnings  
+- `CHALLENGES.md` is a single central log of problems faced and how they were solved.
 
 ---
 
@@ -112,7 +138,8 @@ This separation keeps progress clear and challenges honest.
 
 At the end of:
 - **Each day** → Update `CHALLENGES.md`
-- **Each week** → Update progress status in this README
+- **Each week** → Weekly update progress status in this README
+- **Each day** → Daily (inconsistently*) update progress status at only section level (*:since progress is also being noted at day level in NOTES.md, this section may be insconsistent sometimes)
 
 This README will evolve, but it will remain:
 - High-level
