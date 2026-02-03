@@ -96,6 +96,14 @@ This repository uses **two separate documents** intentionally:
 - Updated **every day**
 - Logs real issues, root causes, fixes, and learnings
 
+### 3. Repository Hygiene Notes
+
+- All week folders are now normal directories, not submodules.
+- Nested `.git` directories have been removed to avoid browsing issues on GitHub.
+- Future work will follow a simple structure:
+  - One main repo (`DevOps`)
+  - No submodules unless explicitly required.
+
 This separation keeps progress clear and challenges honest.
 
 ---

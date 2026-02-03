@@ -164,3 +164,31 @@ Tool failures do not always mean networking is broken.
 
 -------------------------------------------------
 
+Issue:
+- `week-01-linux-foundations` appeared on GitHub but could not be opened (404 error).
+- GitHub treated it as a submodule instead of a normal folder.
+- Locally, files were correct, but online browsing was broken.
+
+Root Cause:
+- A nested `.git` directory existed inside:
+  `DevOps/week-01-linux-foundations/.git`
+- Because of this, Git tracked the folder as a submodule pointer instead of storing files.
+
+Fix Applied:
+1. Removed nested Git repository:
+     rm -rf week-01-linux-foundations/.git
+2. Cleared broken submodule reference:
+     git rm --cached week-01-linux-foundations
+3. Re-added folder as normal content:
+     git add week-01-linux-foundations
+     git commit -m "Convert week-01-linux-foundations from submodule to normal folder"
+     git push origin main
+
+Learning
+- Never keep a `.git` inside another Git repo unless you truly want a submodule.
+- A folder showing with a small arrow icon on GitHub usually means “submodule.”
+- If GitHub shows 404 on a folder, suspect a submodule issue before assuming sync problems.
+
+---------------------------------------------------
+
+
