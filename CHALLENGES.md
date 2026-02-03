@@ -82,9 +82,7 @@ Changed permission to 660.
 Learning:
 Linux checks permissions in order: owner → group → others.
 
-==================================================
-
-WEEK 1 – DAY 3 (Git, WSL & Filesystem)
+--------------------------------------------------
 
 Issue:
 Renaming folder from devops to DevOps failed repeatedly.
@@ -145,5 +143,24 @@ Merge conflicts require understanding file intent, not guessing.
 
 ==================================================
 
-End of Week 1
+WEEK 1 – DAY 3 (Networking & WSL behavior)
+
+Issue:
+The command `ss -tuln` failed with:
+"Cannot open netlink socket: Protocol not supported".
+
+Root Cause:
+WSL Ubuntu kernel does not expose required netlink functionality for `ss`.
+
+Fix:
+Installed and used `netstat -tulnp` instead.
+
+Observation:
+`netstat` showed no listening services, which is expected on a fresh system.
+
+Learning:
+Some Linux tools behave differently (or fail) under WSL.
+Tool failures do not always mean networking is broken.
+
+-------------------------------------------------
 
