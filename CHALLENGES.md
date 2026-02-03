@@ -191,4 +191,22 @@ Learning
 
 ---------------------------------------------------
 
+WEEK 1 – Day 5 (Logs in WSL)
 
+Challenge:
+- Standard Linux log paths like `/var/log/syslog` and `/var/log/dmesg` did not exist in WSL.
+- Initial log inspection script failed because it assumed a full Linux server layout.
+
+Resolution:
+- Listed available logs with `ls /var/log`.
+- Switched to WSL-appropriate logs:
+  - `/var/log/dpkg.log`
+  - `/var/log/ubuntu-advantage.log`
+- Rewrote `log_inspector.sh` to work reliably in WSL.
+- Verified custom logs using `logger` + `grep -R /var/log`.
+
+Learning:
+- Log locations vary by environment (WSL vs real server).
+- Good troubleshooting starts with checking what actually exists, not what tutorials assume.
+
+---------------------------------------------------

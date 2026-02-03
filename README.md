@@ -95,7 +95,7 @@ This section is updated as weeks are completed.
 | Day 2 | Users, groups, permissions | ✅ Completed | day-02/*.txt + NOTES.md |
 | Day 3 | Linux networking | ✅ Completed | day-03/network_check.sh + NOTES.md |
 | Day 4 | Linux processes | ✅ Completed | day-04/process_inspector.sh + NOTES.md |
-| Day 5 | Logs & troubleshooting | ⏳ In progress | day-05/ |
+| Day 5 | Logs & troubleshooting | ✅ Completed | day-05/log_inspector.sh + NOTES.md |
 | Day 6 | Hardening basics | ⏳ Planned | day-06/ |
 | Day 7 | Mini project | ⏳ Planned | day-07/ |
 
@@ -129,6 +129,12 @@ This repository uses **two separate documents** intentionally:
 - Future work will follow a simple structure:
   - One main repo (`DevOps`)
   - No submodules unless explicitly required.
+
+### 4. Environment note
+- Day 5 was done inside WSL Ubuntu 20.04.  
+- WSL does not expose `/var/log/syslog` or `/var/log/dmesg`, so logging was adapted to:
+  - `/var/log/dpkg.log`
+  - `/var/log/ubuntu-advantage.log`
 
 This separation keeps progress clear and challenges honest.
 
