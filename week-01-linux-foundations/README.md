@@ -9,13 +9,13 @@ Environment:
 
 | Day | Topic | Status | Evidence |
 |----|----|----|----|
-| Day 1 | Linux basics & Bash | ✅ Completed | day-01/system_info.sh |
-| Day 2 | Users, groups, permissions | ✅ Completed | day-02/secrets.txt, ownership_test.txt |
-| Day 3 | Linux networking | ⏳ Planned | day-03/ |
-| Day 4 | Processes | ⏳ Planned | day-04/ |
-| Day 5 | Logs & troubleshooting | ⏳ Planned | day-05/ |
+| Day 1 | Linux basics & Bash | ✅ Completed | day-01/system_info.sh + NOTES.md |
+| Day 2 | Users, groups, permissions | ✅ Completed | day-02/*.txt + NOTES.md |
+| Day 3 | Linux networking | ✅ Completed | day-03/network_check.sh + NOTES.md |
+| Day 4 | Linux processes | ✅ Completed | day-04/process_inspector.sh + NOTES.md |
+| Day 5 | Logs & troubleshooting | ⏳ In progress | day-05/ |
 | Day 6 | Hardening basics | ⏳ Planned | day-06/ |
-| Day 7 | Mini project | ⏳ Planned | day-07/ |
+| Day 7 | Mini project | ⏳ Planned | day-07/ || Day | Topic | Status | Evidence |
 
 ---
 
