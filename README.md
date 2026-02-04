@@ -39,6 +39,7 @@ Mistakes, dead ends, and fixes are part of the process and are intentionally pre
 
 ## Repository Structure
 
+```text
 DevOps/
 ├── README.md
 ├── CHALLENGES.md
