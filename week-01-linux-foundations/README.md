@@ -14,7 +14,7 @@ Environment:
 | Day 3 | Linux networking | ✅ Completed | day-03/network_check.sh + NOTES.md |
 | Day 4 | Linux processes | ✅ Completed | day-04/process_inspector.sh + NOTES.md |
 | Day 5 | Logs & troubleshooting (WSL) | ✅ Completed | day-05/log_inspector.sh + NOTES.md |
-| Day 6 | Hardening basics | ⏳ Planned | day-06/ |
+| Day 6 | Hardening basics | ✅ Completed | day-06/hardening_check.sh + NOTES.md |
 | Day 7 | Mini project | ⏳ Planned | day-07/ |
 
 > **Environment note (Day 5):**  
@@ -59,6 +59,14 @@ Environment:
 - Used `grep` to search logs  
 - Tested custom logging with `logger`  
 - Built `log_inspector.sh` tailored for WSL  
+
+---
+
+## Day 6 – Linux Hardening Basics
+- Practiced least privilege with a real secret file.
+- Used chmod 600 to protect sensitive data.
+- Learned how ownership (chown) can block or restore access.
+- Automated checks in hardening_check.sh.
 
 ---
 

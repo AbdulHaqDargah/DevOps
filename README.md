@@ -96,7 +96,7 @@ This section is updated as weeks are completed.
 | Day 3 | Linux networking | ✅ Completed | day-03/network_check.sh + NOTES.md |
 | Day 4 | Linux processes | ✅ Completed | day-04/process_inspector.sh + NOTES.md |
 | Day 5 | Logs & troubleshooting | ✅ Completed | day-05/log_inspector.sh + NOTES.md |
-| Day 6 | Hardening basics | ⏳ Planned | day-06/ |
+| Day 6 | Hardening basics | ✅ Completed | day-06/hardening_check.sh + NOTES.md |
 | Day 7 | Mini project | ⏳ Planned | day-07/ |
 
 ### How this repo is organized
