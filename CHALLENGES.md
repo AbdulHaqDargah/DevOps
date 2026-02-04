@@ -217,11 +217,11 @@ Challenge:
 - After changing ownership of sensitive.txt to root:root, I could no longer read my own file.
 
 Resolution:
-- Used sudo chown alym:alym to restore correct ownership.
-- Verified access again using cat and hardening_check.sh.
+- Used `sudo chown alym:alym sensitive.txt` to restore correct ownership.
+- Verified access again using `cat` and `hardening_check.sh`.
 
 Learning:
 - Permissions alone are not enough — ownership matters just as much.
-- You should always check both before declaring something “secure.”
+- A secure file requires both correct permissions **and** correct ownership.
 
 ---------------------------------------------------

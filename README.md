@@ -39,13 +39,13 @@ Mistakes, dead ends, and fixes are part of the process and are intentionally pre
 
 ## Repository Structure
 
-```text
 DevOps/
 ├── README.md
 ├── CHALLENGES.md
 │
 ├── week-01-linux-foundations/
 │   ├── README.md
+│   │
 │   ├── day-01/
 │   │   ├── system_info.sh
 │   │   └── NOTES.md
@@ -64,12 +64,19 @@ DevOps/
 │   │   └── NOTES.md
 │   │
 │   ├── day-05/
+│   │   ├── log_inspector.sh
+│   │   └── NOTES.md
+│   │
 │   ├── day-06/
-│   └── day-07/
+│   │   ├── hardening_check.sh
+│   │   ├── sensitive.txt
+│   │   └── NOTES.md
+│   │
+│   └── day-07/   (mini-project — coming next)
 │
-├── week-02-<future>/
-├── week-03-<future>/
-└── week-04-<future>/
+├── week-02/   (future)
+├── week-03/   (future)
+└── week-04/   (future)
 ```
 
 ## Progress Tracking (High-Level)
@@ -78,7 +85,7 @@ This section is updated as weeks are completed.
 
 | Week | Focus Area | Status | Notes |
 |-----|-----------|--------|------|
-| Week 1 | Linux foundations, users, permissions, Git & WSL | 🟡 In Progress | Hands-on completed up to Day 3 |
+| Week 1 | Linux foundations, users, permissions, Git & WSL | 🟢 Completed | Days 1–6 done; Day 7 mini-project pending |
 | Week 2 | Linux networking & processes | ⏳ Planned | |
 | Week 3 | Containers & Docker | ⏳ Planned | |
 | Week 4 | CI/CD basics | ⏳ Planned | |

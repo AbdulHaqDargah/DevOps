@@ -64,9 +64,9 @@ Environment:
 
 ## Day 6 – Linux Hardening Basics
 - Practiced least privilege with a real secret file.
-- Used chmod 600 to protect sensitive data.
-- Learned how ownership (chown) can block or restore access.
-- Automated checks in hardening_check.sh.
+- Used `chmod 600` to protect sensitive data.
+- Learned how ownership (`chown`) can block or restore access.
+- Automated checks in `hardening_check.sh`.
 
 ---
 
